@@ -37,7 +37,7 @@ module "eks" {
   max_size           = var.max_size
   min_size           = var.min_size
   node_group_name    = var.node_group_name
-  private_subnet_ids = module.vpc.private_subnets_ids
+  private_subnet_ids = module.vpc.private_subnet_ids
   region             = var.region
   tags               = var.tags
   vpc_cni_version    = var.vpc_cni_version
