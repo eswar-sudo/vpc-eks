@@ -36,10 +36,10 @@ module "vpc-eks" {
 }
 
 # Example consumer outputs
-output "my_cluster" {
-  value = module.infra.eks_cluster_name
-}
+#output "my_cluster" {
+ # value = module.infra.eks_cluster_name
+#}
 
-output "my_vpc" {
-  value = module.infra.vpc_id
-}
+#output "my_vpc" {
+ # value = module.infra.vpc_id
+#}
